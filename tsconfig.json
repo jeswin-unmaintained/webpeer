@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": false,
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es2017", "dom"],
+    "sourceMap": true,
+    "strict": true,
+    "types": ["node"],
+    "declaration": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./src/test/fixtures/**/*"]
+}

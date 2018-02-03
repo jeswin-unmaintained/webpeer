@@ -1,0 +1,24 @@
+{
+  "name": "webpeer",
+  "version": "0.0.1",
+  "author": "Isotropy Team<isotropy@agilehead.com>",
+  "contributors": [
+    "Jeswin Kumar<jeswinpk@agilehead.com>"
+  ],
+  "scripts": {
+    "build": "./build.sh",
+    "test": "mocha dist/test/test.js",
+    "debug": "mocha dist/test/test.js --debug-brk"
+  },
+  "main": "dist/webpeer.js",
+  "types": "dist/webpeer.d.ts",
+  "dependencies": {
+    "@types/koa": "^2.0.43",
+    "@types/koa-router": "^7.0.27",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
